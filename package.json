@@ -2,14 +2,19 @@
   "name": "sahil-backend",
   "version": "1.0.0",
   "description": "a backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
   },
   "keywords": [
     "javacript",
     "backnd"
   ],
   "author": "sahil",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "nodemon": "^3.1.9"
+  }
 }
